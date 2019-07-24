@@ -1,9 +1,14 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
+import ExcelTable from './components/ExcelTable';
 
 export default class App extends React.Component {
   render() {
     return (<div>
-      <h2>Welcome to React!</h2>
+      <Button variant="contained" color="primary">
+        Hello World
+      </Button>
+      <ExcelTable />
     </div>);
   }
 }
